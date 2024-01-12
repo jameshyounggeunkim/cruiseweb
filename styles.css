@@ -1,0 +1,82 @@
+body {
+	background: #ddd;
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 500px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+ol li {
+	list-style-type: none;
+	color: blue;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 500px;
+}
+
+
+
+/* profile page */
+
+#profile-title {
+	font: bolder;
+	font-family: 'Times New Roman';
+}
+
+.flex-container {
+	display: flex;
+	background-color: DodgerBlue;
+}
+
+.flex-container>div {
+	background-color: #9ccae0;
+	margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+/* profile buttons */
+
+.btn {
+	border: none;
+	background-color: yellow;
+	color: rgb(4, 2, 19);
+	padding: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
